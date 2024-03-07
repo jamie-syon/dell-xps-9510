@@ -23,4 +23,6 @@ If the time is too long it may be down to waiting for the network and you can di
 
 Still too slow for so I ran "systemd-analyze blame" to see what is taking so long in the boot process.  You also run "systemd-analyze critical-chain" to get the chained events.
 
-~~ Now under two minutes which is still slow, so changed "Fast boot" from "Thourough" to "Auto" which made things worse ~~
+Now under two minutes which is still slow, so changed "Fast boot" from "Thourough" to "Auto" which made things worse, so reverted back.
+
+Will stick with ~2 minutes, once booted and logged in it runs lovely.
