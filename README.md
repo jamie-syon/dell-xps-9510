@@ -21,4 +21,6 @@ If the time is too long it may be down to waiting for the network and you can di
 
 "sudo systemctl disable NetworkManager-wait-online.service"
 
-Then re-run the analysis to see if its any better, if not run "systemd-blame" to see what is taking so long in the boot process.
+Still too slow for so I ran "systemd-analyze blame" to see what is taking so long in the boot process.  You also run "systemd-analyze critical-chain" to get the chained events.
+
+~~ Now under two minutes which is still slow, so changed "Fast boot" from "Thourough" to "Auto" which made things worse ~~
