@@ -21,4 +21,4 @@ If the time is too long it may be down to waiting for the network and you can di
 
 "sudo systemctl disable NetworkManager-wait-online.service"
 
-Then re-run the analysis to see if its any better
+Then re-run the analysis to see if its any better, if not run "systemd-blame" to see what is taking so long in the boot process.
