@@ -26,3 +26,5 @@ Still too slow for so I ran "systemd-analyze blame" to see what is taking so lon
 Now under two minutes which is still slow, so changed "Fast boot" from "Thourough" to "Auto" which made things worse, so reverted back.
 
 Will stick with ~2 minutes, once booted and logged in it runs lovely.
+
+After a couple of reboots over a span of a week, log in time is now much better.
