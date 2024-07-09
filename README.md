@@ -28,3 +28,5 @@ Now under two minutes which is still slow, so changed "Fast boot" from "Thouroug
 Will stick with ~2 minutes, once booted and logged in it runs lovely.
 
 After a couple of reboots over a span of a week, log in time is now much better.
+
+**Edit:** Have now moved to Fedora and apart from a black screen at startup (which was fixed by using nomodeset in Grub), its very quick to boot.  If you're sticking with Manjaro (which I have with my workstation), trying the nomodeset in Grub may well fix the long boot time as its probably booted fine but you can't see it.
